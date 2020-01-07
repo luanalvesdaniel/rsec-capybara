@@ -11,13 +11,11 @@ describe 'Controles Dinâmicos', :cd do
 		# Quando tem a propriedade disabled = false o campo está habilitado
 
 		res = page.has_field? 'movie', disabled: true
-		puts res
-
+		
 		click_button 'Habilita'
 
 		res = page.has_field? 'movie', disabled: false
-		puts res
-
+		
 	end
 
 end

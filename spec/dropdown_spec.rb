@@ -20,8 +20,4 @@ describe 'Caixa de opções', :dropdown do
 		drop.all('option').sample.select_option
 	end
 
-	after(:each) do
-		sleep 3
-	end
-
 end

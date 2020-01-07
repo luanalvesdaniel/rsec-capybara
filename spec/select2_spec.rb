@@ -21,21 +21,11 @@ describe 'Select2', :select2 do
 			
 		end
 
-		after(:each) do
-			sleep 2
-		end
 	end
 
 	describe('multiple', :multiple) do
 		before(:each) do
 			visit '/apps/select2/multi.html'
-		end
-
-		
-
-		after(:each) do
-
-		end
+		end	
 	end
-
 end

@@ -49,8 +49,4 @@ describe 'Mouse Hover', :hovers do
 
 	end
 
-	after(:each) do 
-		
-	end
-
 end

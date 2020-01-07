@@ -58,8 +58,4 @@ describe 'Alertas de JS', :alerts do
 		
 	end
 
-	after(:each) do
-		
-	end
-
 end

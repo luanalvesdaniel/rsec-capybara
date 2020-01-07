@@ -13,8 +13,4 @@ describe 'Botões de Radio', :radio do
 		find('input[value=guardians]').click
 	end
 
-	after(:each) do
-		sleep 3
-	end
-
 end

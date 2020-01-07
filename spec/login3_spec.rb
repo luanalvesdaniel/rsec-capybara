@@ -31,8 +31,4 @@ describe 'Login 3', :login3 do
 	
 	end
 
-	after(:each) do
-		sleep 1
-	end
-
 end

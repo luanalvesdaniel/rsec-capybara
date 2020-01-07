@@ -1,9 +1,12 @@
 
 
-describe 'Meu primeiro script' do
+describe 'Meu primeiro script', :hello do
 
-	it 'visitar a pagina' do
+	before(:each) do
 		visit ''
+	end
+	
+	it 'visitar a pagina' do
 		puts page.title
 	end
 

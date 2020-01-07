@@ -16,6 +16,10 @@ RSpec.configure do |config|
 
   config.include Capybara::DSL
 
+  config.before(:example) do
+	page.current_window.resize_to(800,600)
+  end
+
 end
 
 Capybara.configure do |config|
