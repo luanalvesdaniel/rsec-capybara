@@ -1,6 +1,6 @@
 
 
-describe 'Forms' do
+describe 'Forms', :login_forms do
 
 	before(:each) do
 		visit '/login'
@@ -50,6 +50,5 @@ describe 'Forms' do
 		expect(find('#flash')).to have_content 'O usuário informado não está cadastrado!'
 
 	end
-
 
 end
