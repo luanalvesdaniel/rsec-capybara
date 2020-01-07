@@ -2,7 +2,7 @@
 describe 'Controles Dinâmicos', :cd do
 
 	before(:each) do 
-		visit 'https://training-wheels-protocol.herokuapp.com/dynamic_controls'
+		visit '/dynamic_controls'
 	end
 
 	it 'Quando habilita o campo' do

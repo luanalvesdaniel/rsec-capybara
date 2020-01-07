@@ -2,9 +2,11 @@
 
 describe 'Forms' do
 
-	it 'Login com sucesso' do
+	before(:each) do
+		visit '/login'
+	end
 
-		visit 'https://training-wheels-protocol.herokuapp.com/login'
+	it 'Login com sucesso' do
 
 		fill_in 'username', with: 'stark'
 		fill_in 'password', with: 'jarvis!'
@@ -20,7 +22,6 @@ describe 'Forms' do
 	end
 
 	it 'Senha incorreta' do
-		visit 'https://training-wheels-protocol.herokuapp.com/login'
 
 		fill_in 'username', with: 'stark'
 		fill_in 'password', with: 'jarvis'
@@ -36,7 +37,6 @@ describe 'Forms' do
 	end
 	
 	it 'Usuário não cadastrado' do
-		visit 'https://training-wheels-protocol.herokuapp.com/login'
 
 		fill_in 'username', with: 'stark001'
 		fill_in 'password', with: 'jarvis!'
