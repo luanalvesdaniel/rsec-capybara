@@ -34,7 +34,6 @@ describe 'iframes', :iframes do
 
 			within_frame('tempId') do
 				expect(find('#cart')).to have_content 'Seu carrinho está vazio!'
-				sleep 3
 			end
 
 		end
