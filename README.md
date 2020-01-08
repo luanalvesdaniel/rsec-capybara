@@ -1,2 +1,2 @@
 # rsec-capybara
-BDD + TDD + Ruby + RSpec + Selenium + Capybara + Cucumber
+BDD + TDD + Ruby + RSpec + Selenium + Capybara
